@@ -1,0 +1,182 @@
+/* common style */
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+.margin-bottom {
+    margin-bottom: 200px;
+}
+
+
+.btn-primary {
+    border: 0;
+    padding: 20px 40px;
+    border-radius: 7px;
+    color: white;
+    background-color: brown;
+}
+
+.section-title {
+    font-size: 60px;
+    text-align: center;
+    color: rgb(87, 85, 85);
+}
+
+.section-description {
+    text-align: center;
+    font-size: large;
+    color: gray;
+}
+
+/* header style */
+header {
+    text-align: center;
+    padding: 160px 60px;
+    background-image: url(images/donation13.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-blend-mode: multiply;
+}
+
+.header-title {
+    font-weight: bold;
+    font-size: 80px;
+    color: white;
+}
+
+.header-description {
+    font-size: larger;
+    color: white;
+}
+
+/* donate today style */
+.donate {
+    max-width: 800px;
+    margin: 100px auto;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.amount {
+    display: flex;
+    justify-content: space-around;
+}
+
+form input {
+    display: block;
+    border: 0;
+    margin: 50px auto 0 auto;
+
+}
+
+/* donate plan section */
+.donate-for {
+    display: flex;
+    gap: 20px;
+}
+
+.doneate-plan {
+    max-width: 1100px;
+    margin: 200px auto 0 auto;
+}
+
+.plan-conainer {
+    padding: 40px;
+}
+
+.food {
+    background: powderblue;
+}
+
+.selter {
+    background: rosybrown;
+}
+
+.education {
+    background: burlywood;
+}
+
+/* example section style */
+
+.ex-container {
+    display: flex;
+    gap: 20px;
+}
+
+.top-ex {
+    margin-bottom: 50px;
+    margin-top: 150px;
+}
+
+.example {
+    max-width: 1100px;
+    margin: 100px auto 0 auto;
+}
+
+.ex-container .text-button,
+img {
+    max-width: 45%;
+}
+
+/* get my updates */
+.subscribe-cont {
+    background: rgb(248, 238, 212);
+    padding: 60px 100px;
+}
+
+.subscribe-cont input {
+    border: 0;
+    width: 600px;
+    height: 55px;
+    border-radius: 10px;
+    margin: 40px auto 0 auto;
+}
+
+.my-updates {
+    max-width: 1100px;
+    margin: 100px auto 200px auto;
+}
+
+.email {
+    display: flex;
+    justify-content: center;
+}
+
+.subscribe {
+    width: 140px;
+    height: 55px;
+    border-radius: 10px;
+    background-color: brown;
+    text-align: center;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: relative;
+    left: 68%;
+    bottom: 56px;
+}
+
+
+/* footer style */
+footer {
+    background-color: rgb(53, 53, 53);
+    padding: 80px;
+}
+
+.footer-element {
+    margin: 30px auto;
+    text-align: center;
+    color: white;
+}
+
+footer h1 {
+    font-family: 'Oleo Script', cursive;
+    color: rgb(214, 5, 5);
+}
